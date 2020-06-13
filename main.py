@@ -11,7 +11,7 @@ from Resources.sprites import*
 from Resources.setandvar import* 
 from Resources.define import*
 
-count = 0
+#main game class
 class Game():
     def __init__ (self):
         self.total = 275
@@ -146,7 +146,6 @@ class Game():
 run = True
 start_screen()
 game = Game()
-game.gameover_screen()
 game.new()
 while run:
     clock.tick(fps)
